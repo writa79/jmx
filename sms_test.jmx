@@ -73,7 +73,7 @@
             <stringProp name="HtmlExtractor.expr">td.span10</stringProp>
             <stringProp name="HtmlExtractor.attribute"></stringProp>
             <stringProp name="HtmlExtractor.default">NV_JMETER</stringProp>
-            <stringProp name="HtmlExtractor.match_number">8</stringProp>
+            <stringProp name="HtmlExtractor.match_number">1</stringProp>
             <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
           </HtmlExtractor>
           <hashTree/>
@@ -84,7 +84,7 @@
             <stringProp name="script">String strVerificationSMS = vars.get(&quot;VerificationSMS&quot;);
 System.out.println(&quot;VerificationSMS = &quot; + strVerificationSMS);
 
-strVerificationSMS = &quot;Identity ID: KtKgA, Code: 732161&quot;;
+//strVerificationSMS = &quot;Identity ID: KtKgA, Code: 732161&quot;;
 
 String[] arrVerification = strVerificationSMS.split(&quot;Code: &quot;);
 String strVerificationCode = &quot;&quot;;
@@ -136,10 +136,10 @@ System.out.println(&quot;VerificationCode = &quot; + strVerificationCode);</stri
           <hashTree/>
           <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="CSS/JQuery Extractor" enabled="true">
             <stringProp name="HtmlExtractor.refname">VerificationSMS</stringProp>
-            <stringProp name="HtmlExtractor.expr">td.span10</stringProp>
+            <stringProp name="HtmlExtractor.expr">td</stringProp>
             <stringProp name="HtmlExtractor.attribute"></stringProp>
             <stringProp name="HtmlExtractor.default">NV_JMETER</stringProp>
-            <stringProp name="HtmlExtractor.match_number">8</stringProp>
+            <stringProp name="HtmlExtractor.match_number">2</stringProp>
             <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
           </HtmlExtractor>
           <hashTree/>
@@ -150,7 +150,7 @@ System.out.println(&quot;VerificationCode = &quot; + strVerificationCode);</stri
             <stringProp name="script">String strVerificationSMS = vars.get(&quot;VerificationSMS&quot;);
 System.out.println(&quot;VerificationSMS = &quot; + strVerificationSMS);
 
-strVerificationSMS = &quot;Identity ID: KtKgA, Code: 732161&quot;;
+//strVerificationSMS = &quot;Identity ID: KtKgA, Code: 732161&quot;;
 
 String[] arrVerification = strVerificationSMS.split(&quot;Code: &quot;);
 String strVerificationCode = &quot;&quot;;
